@@ -14,7 +14,8 @@
 不论使用何种方式进行建模，腰带的测距原理都是一定的。首先，系统将会把用户正面的180°范围划分为五个扇区。若平均划分，每个扇区应当占用36°。考虑到通常我们对正面区域的测量精度要求更高，我们可以略微缩小中间三个扇区的角度来获得更精确的测量效果。  
 ![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E6%B0%B4%E5%B9%B3%E4%BA%94%E6%89%87%E5%8C%BA.png)  
 对于每个扇区，我们还需要将其从上而下划分为两个或三个区块。考虑到视觉识别模块的检测范围，每个扇区垂直方向的角度应当是小于180°的。系统将会将这一角度平均划分为多个区块。  
-
+![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9E%82%E7%9B%B4%E4%B8%89%E5%88%92%E5%88%86.png)
+![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9E%82%E7%9B%B4%E4%BA%8C%E5%88%92%E5%88%86.png)  
 对于每个区域，我们在测距时应该取区间内距离用户最近的特征点的水平欧拉距离作为该区域的障碍物距离。也就是说，只要区间内有任意一点进入了腰带的警戒范围，腰带上对应的电机就会作出反应引导用户回避障碍物。由于腰带在设计时每个扇区就只设置了2-3个执行器，其输出压力时也只能输出点状的触感而非实时将周围情况完整反馈给用户。所以上述测距方法导致的误差和数据丢失不会对腰带的主要功能产生任何影响。  
 ![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E6%B0%B4%E5%B9%B3%E6%B5%8B%E8%B7%9D%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 ![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9E%82%E7%9B%B4%E6%B5%8B%E8%B7%9D%E7%A4%BA%E6%84%8F%E5%9B%BE.png)  

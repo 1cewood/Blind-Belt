@@ -30,3 +30,5 @@
 ## 视觉识别原理  
 ## 数据处理流程图  
 ![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png)  
+## 效果模拟视频  
+https://www.bilibili.com/video/BV1gCtXeaE1e/?vd_source=920cedea08513079dfcdebff36b1f9b0  

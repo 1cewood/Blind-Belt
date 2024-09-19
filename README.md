@@ -29,3 +29,4 @@
 ## 腰带模型  
 ## 视觉识别原理  
 ## 数据处理流程图  
+![image](https://github.com/1cewood/Blind-Belt/blob/main/%E5%9B%BE%E5%BA%8A/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png)  
